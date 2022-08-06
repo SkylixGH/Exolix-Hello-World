@@ -1,0 +1,8 @@
+import Skylix::Exolix::stdio::{println};
+import Skylix::ExolixProject::Lib::{getAuthor};
+
+fn main() {
+    println("Hello World && author = " getAuthor());
+}
+
+// Namespace: Automatic Skylix::ExolixProject
