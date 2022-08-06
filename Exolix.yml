@@ -1,7 +1,8 @@
 name: ExolixProject
 org: Skylix
 version: 1.0.0
-main = src/main.xe
+entry = src/main.xe
+namespace: auto # Map namespace to file structure
 
 compiler
   min-version: 1.0.0-canary
