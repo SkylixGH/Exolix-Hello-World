@@ -1,0 +1,7 @@
+import Skylix::Exolix::{CurrentProject};
+
+exp fn getAuthor(): String {
+    return CurrentProject.getFirstAuthor();
+}
+
+// Namespace: Automatic Skylix::ExolixProject::Lib
